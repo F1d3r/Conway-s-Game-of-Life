@@ -1,0 +1,617 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1680682718782041, "dur": 1291600, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682718782255, "dur": 16229, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682718798485, "dur": 32363, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682718830850, "dur": 636465, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682719467317, "dur": 594372, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682720061690, "dur": 11950, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682720074241, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1680682719220867, "dur": 225534, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682719221702, "dur": 37015, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682719433802, "dur": 3869, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682719437674, "dur": 8723, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682719438215, "dur": 7678, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682719450018, "dur": 1016, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1680682719449409, "dur": 1641, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682720074369, "dur": 291, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1680682719500333, "dur":1106, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682719501445, "dur":46, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1680682719501503, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1680682719501518, "dur":521, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1680682719502054, "dur":464, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682719502518, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720037623, "dur":430, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038053, "dur":33, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038086, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038089, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038097, "dur":38, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038135, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038142, "dur":22, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038164, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038183, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038186, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038192, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038193, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038199, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038200, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038203, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038205, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038209, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038210, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038214, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038215, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038219, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038220, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038223, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038224, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038228, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038230, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038234, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038235, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038238, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038239, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038243, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038244, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038247, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038248, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038252, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038254, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038257, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038258, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038262, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038263, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038266, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038267, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038271, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038272, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038275, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038276, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038280, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038281, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038285, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038295, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720038315, "dur":1171, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1680682719501925, "dur":599, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682719502525, "dur":4319, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682719506854, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680682719506861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682719508467, "dur":401, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680682719508873, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680682719508982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682719509242, "dur":9366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680682719518611, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1680682719518754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682719519260, "dur":164667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1680682719684026, "dur":48564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682719732593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682719732599, "dur":7045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682719739740, "dur":44989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682719784734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682719784741, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682719785722, "dur":209963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682719995688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680682719995693, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680682719996720, "dur":40919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682719501960, "dur":575, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682719502535, "dur":4312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682719506854, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680682719507115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682719509308, "dur":11467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680682719520872, "dur":22817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682719543693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682719543699, "dur":116399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682719660205, "dur":35568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682719695777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682719695782, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682719698204, "dur":27617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682719725824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682719725850, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682719727350, "dur":22093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682719749447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682719749454, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682719750421, "dur":166288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682719916715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680682719916725, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680682719918083, "dur":119545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682719501952, "dur":577, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682719502529, "dur":4321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682719506855, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1680682719507289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682719511968, "dur":8521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1680682719520593, "dur":62900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719583497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682719583504, "dur":73932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719657594, "dur":46804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719704401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682719704407, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719708825, "dur":25068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719733897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682719733903, "dur":3180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719737199, "dur":42303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719779506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682719779511, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719780475, "dur":26568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719807048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682719807057, "dur":3667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719810830, "dur":28088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719838921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682719838927, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719840675, "dur":88001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719928680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680682719928686, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680682719929826, "dur":107803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682719501982, "dur":559, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682719502541, "dur":4318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682719506859, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1680682719507086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682719509144, "dur":9843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1680682719519084, "dur":136534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719655624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682719655633, "dur":8644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719664805, "dur":31141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719695951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682719695959, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719698629, "dur":30552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719729185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682719729194, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719730401, "dur":37442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719767847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682719767853, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719769325, "dur":24915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719794246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682719794254, "dur":5669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719800591, "dur":134482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719935076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680682719935081, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680682719936032, "dur":101620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682719502012, "dur":533, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682719502545, "dur":4303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682719506855, "dur":11731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1680682719518589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682719518602, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1680682719520720, "dur":21791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682719542517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682719542525, "dur":114613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682719657246, "dur":57221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682719714471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682719714479, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682719715415, "dur":20791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682719736209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682719736215, "dur":4863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682719741178, "dur":85264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682719826446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682719826453, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682719827540, "dur":139157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682719966700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680682719966707, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680682719968440, "dur":69196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682719502151, "dur":398, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682719502549, "dur":4296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682719506854, "dur":30884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1680682719537743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682719538034, "dur":118904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1680682719657039, "dur":20236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680682719677280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682719677290, "dur":2864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680682719680250, "dur":45246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680682719725500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682719725506, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680682719727494, "dur":69569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680682719797066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682719797071, "dur":6501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680682719804306, "dur":81406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680682719885716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680682719885721, "dur":3815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680682719889617, "dur":148016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719502172, "dur":380, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719502552, "dur":4316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719506869, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1680682719507247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719511400, "dur":146209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1680682719657727, "dur":74634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682719732364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719732370, "dur":5454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682719737926, "dur":130249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682719868180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719868187, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680682719869960, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682719870204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719870530, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682719871441, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1680682719871525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719871565, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1680682719872588, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1680682719872668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719872673, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1680682719873602, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1680682719873701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719873706, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1680682719874672, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682719874912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719874917, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682719875804, "dur":6384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682719882191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680682719882196, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1680682719884290, "dur":153330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682719502193, "dur":364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682719502557, "dur":4294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682719506855, "dur":8862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1680682719515721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682719515735, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1680682719519083, "dur":20020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719539106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682719539323, "dur":117478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719656905, "dur":20654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719677563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682719677572, "dur":4320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719681977, "dur":38286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719720267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682719720273, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719722206, "dur":50206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719772436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682719772444, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719774065, "dur":46021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719820090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682719820099, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719821092, "dur":149051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719970145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680682719970175, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680682719971066, "dur":66573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682719502213, "dur":349, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682719502562, "dur":4290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682719506855, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1680682719507343, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682719512352, "dur":146192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1680682719658667, "dur":19332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719678002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682719678008, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719681123, "dur":20433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719701560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682719701566, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719702621, "dur":34126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719736751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682719736757, "dur":3751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719740620, "dur":38222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719778846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682719778854, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719779814, "dur":57900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719837719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682719837726, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719838854, "dur":89716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719928575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680682719928600, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680682719929737, "dur":107894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682719502236, "dur":330, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682719502566, "dur":4287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682719506856, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1680682719507063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682719508831, "dur":9924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1680682719518911, "dur":136845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682719655759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682719655765, "dur":8697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682719665071, "dur":58534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682719723608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682719723614, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682719725314, "dur":28045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682719753363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682719753370, "dur":7811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682719761276, "dur":53494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682719814775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682719814782, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682719815903, "dur":31714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682719847620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682719847626, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682719849182, "dur":186348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682720035532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680682720035537, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680682720037581, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1680682720037582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682719502255, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682719502569, "dur":4285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682719506855, "dur":12412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1680682719519270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682719519287, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1680682719521049, "dur":22469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719543521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682719543529, "dur":113777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719657451, "dur":21757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719679211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682719679217, "dur":3655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719683385, "dur":35919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719719308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682719719314, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719720811, "dur":22632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719743447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682719743475, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719744616, "dur":62879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719807499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682719807506, "dur":5594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719813184, "dur":78934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719892121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680682719892128, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680682719893295, "dur":144346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682719502277, "dur":295, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682719502572, "dur":4285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682719506857, "dur":8895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1680682719515755, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682719515768, "dur":3857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1680682719519766, "dur":135924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719655695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682719655705, "dur":8493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719664875, "dur":21483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719686361, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682719686368, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719687502, "dur":48187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719735692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682719735700, "dur":4513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719740617, "dur":26855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719767475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682719767482, "dur":9442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719777013, "dur":54894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719831934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682719831941, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719833362, "dur":53055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719886421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680682719886428, "dur":3454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680682719889961, "dur":147663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680682719502297, "dur":280, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680682719502578, "dur":4280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680682719506858, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1680682719507160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680682719509974, "dur":154638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1680682719664738, "dur":67270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680682719732011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680682719732017, "dur":4431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680682719736574, "dur":21340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680682719757921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680682719757929, "dur":7802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680682719765813, "dur":57328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680682719823145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680682719823152, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680682719826413, "dur":139018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680682719965437, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1680682719965449, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1680682719967803, "dur":69843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680682719502328, "dur":255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680682719502583, "dur":4277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680682719506862, "dur":9473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1680682719516339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680682719516352, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1680682719519210, "dur":31411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680682719550623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680682719550630, "dur":106654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680682719657377, "dur":65896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680682719723276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680682719723283, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680682719724631, "dur":135477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680682719860112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680682719860118, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680682719861546, "dur":34224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680682719895774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1680682719895780, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1680682719896769, "dur":140881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680682719502345, "dur":243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680682719502589, "dur":4281, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680682719506871, "dur":35035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680682719541913, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680682719656737, "dur":3371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680682719660217, "dur":106154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680682719766375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680682719766382, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680682719768451, "dur":17294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680682719785749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680682719785755, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680682719786624, "dur":46730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680682719833358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680682719833366, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680682719834275, "dur":102573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680682719936851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1680682719936856, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1680682719938005, "dur":99627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719502366, "dur":226, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719502592, "dur":4270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719506865, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1680682719507222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719510767, "dur":9391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1680682719520264, "dur":20427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680682719540696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719540768, "dur":123476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680682719664825, "dur":54739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680682719719571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719719580, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680682719721180, "dur":29646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680682719750830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719750835, "dur":11903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680682719762843, "dur":33675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680682719796522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719796528, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680682719798008, "dur":79112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680682719877124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719877130, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1680682719878150, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1680682719878231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719878236, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1680682719879635, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1680682719879707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719879711, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1680682719880591, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1680682719880672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719880676, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1680682719881650, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1680682719881730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719881734, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1680682719883572, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1680682719883789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1680682719883795, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1680682719885589, "dur":152034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1680682719502395, "dur":200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1680682719502595, "dur":4281, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1680682719506876, "dur":27405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life.exe" }}
+,{ "pid":12345, "tid":17, "ts":1680682719534287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1680682719534297, "dur":125929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life.exe" }}
+,{ "pid":12345, "tid":17, "ts":1680682719660343, "dur":37994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1680682719698341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1680682719698346, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1680682719699316, "dur":21808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1680682719721127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1680682719721145, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1680682719722478, "dur":18978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1680682719741459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1680682719741465, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1680682719742480, "dur":116598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1680682719859084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1680682719859092, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1680682719860468, "dur":160280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":17, "ts":1680682720020751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1680682720020756, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":17, "ts":1680682720021626, "dur":16001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1680682719502415, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1680682719502598, "dur":4267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1680682719506868, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":18, "ts":1680682719507153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1680682719509580, "dur":148947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":18, "ts":1680682719658664, "dur":133444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":18, "ts":1680682719792131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1680682719792136, "dur":4471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":18, "ts":1680682719796703, "dur":87300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1680682719884007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1680682719884065, "dur":3452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1680682719887598, "dur":150021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1680682719502433, "dur":169, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1680682719502602, "dur":4261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1680682719506864, "dur":10878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1680682719517745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1680682719517759, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1680682719520132, "dur":28404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1680682719548542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1680682719548551, "dur":108671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1680682719657326, "dur":45962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1680682719703292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1680682719703355, "dur":5065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1680682719708531, "dur":92907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1680682719801442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1680682719801449, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1680682719804117, "dur":80579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":19, "ts":1680682719884699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1680682719884705, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":19, "ts":1680682719887881, "dur":149745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1680682719502452, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1680682719502606, "dur":4260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1680682719506872, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":20, "ts":1680682719507127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1680682719509035, "dur":10356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":20, "ts":1680682719519505, "dur":30880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719550390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1680682719550395, "dur":107383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719658314, "dur":101831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719760150, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1680682719760160, "dur":5375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719765626, "dur":740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719766369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1680682719766376, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719768089, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719768906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1680682719768913, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719770614, "dur":774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719771392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1680682719771399, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719772473, "dur":23841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719796318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1680682719796325, "dur":4097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719800654, "dur":116454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719917111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1680682719917117, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":20, "ts":1680682719918498, "dur":119139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1680682719502470, "dur":141, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1680682719502611, "dur":4260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1680682719506872, "dur":52547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":21, "ts":1680682719559423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1680682719656361, "dur":7962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":21, "ts":1680682719664427, "dur":18764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1680682719683195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1680682719683203, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1680682719685160, "dur":33621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1680682719718785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1680682719718792, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1680682719719987, "dur":70254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1680682719790245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1680682719790251, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1680682719791225, "dur":97283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":21, "ts":1680682719888511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1680682719888517, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":21, "ts":1680682719890146, "dur":147503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1680682719502488, "dur":126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1680682719502614, "dur":4261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1680682719506875, "dur":52152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":22, "ts":1680682719559032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1680682719559039, "dur":100973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":22, "ts":1680682719660118, "dur":49896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1680682719710018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1680682719710025, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1680682719710980, "dur":31367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1680682719742350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1680682719742355, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1680682719743357, "dur":48781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1680682719792141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1680682719792148, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1680682719795453, "dur":180725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":22, "ts":1680682719976181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1680682719976185, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":22, "ts":1680682719977811, "dur":59833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1680682719502509, "dur":108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1680682719502618, "dur":4256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1680682719506874, "dur":85511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719592390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1680682719592394, "dur":80984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719673471, "dur":19886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719693362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1680682719693371, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719694353, "dur":37535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719731892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1680682719731899, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719734483, "dur":28750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719763238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1680682719763244, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719765362, "dur":81626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719846991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1680682719846998, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719848025, "dur":32334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719880362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1680682719880367, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":23, "ts":1680682719881360, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/level0" }}
+,{ "pid":12345, "tid":23, "ts":1680682719881438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1680682719881442, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/level0" }}
+,{ "pid":12345, "tid":23, "ts":1680682719882941, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":23, "ts":1680682719883052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1680682719883056, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":23, "ts":1680682719885513, "dur":152108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1680682719502544, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1680682719502544, "dur":4312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1680682719506856, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":24, "ts":1680682719507162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1680682719510329, "dur":9109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":24, "ts":1680682719519808, "dur":23229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1680682719543042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1680682719543048, "dur":139623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1680682719682801, "dur":25378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1680682719708184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1680682719708194, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1680682719709396, "dur":33185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1680682719742584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1680682719742592, "dur":17558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1680682719760247, "dur":85953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":24, "ts":1680682719846204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1680682719846212, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":24, "ts":1680682719847271, "dur":82328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":24, "ts":1680682719929603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1680682719929609, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/15779/Desktop/1/Conway's Game of Life_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":24, "ts":1680682719930776, "dur":106867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680682720040532, "dur":1601, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1680682720074745, "dur": 798, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680682720074232, "dur": 1326, "ph": "X", "name": "Write chrome-trace events", "args": {} },
