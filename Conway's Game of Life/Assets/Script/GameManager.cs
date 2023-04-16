@@ -52,10 +52,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         // If the game is not started.
-        if(!gameStarted)
+        if (!gameStarted)
         {
             ToggleSelecter();
-            if(Input.GetKeyDown(KeyCode.L))
+            if (Input.GetKeyDown(KeyCode.L))
             {
                 gameStarted = true;
                 StartGame();
@@ -66,11 +66,11 @@ public class GameManager : MonoBehaviour
         // If the game has started.
         else
         {
-            if(Input.GetKeyDown(KeyCode.R))
+            if (Input.GetKeyDown(KeyCode.R))
             {
                 gameStarted = false;
                 CancelInvoke();
-                if(selecterActive)
+                if (selecterActive)
                 {
                     selecter.SetActive(true);
                 }
@@ -99,11 +99,11 @@ public class GameManager : MonoBehaviour
         matrix = new GameObject[sizeOfGrid, sizeOfGrid, sizeOfGrid];
 
         // Instantiate cubes according to the size of grid.
-        for(int i = 0; i < matrix.GetLength(0); i++)
+        for (int i = 0; i < matrix.GetLength(0); i++)
         {
-            for(int j = 0; j < matrix.GetLength(1); j++)
+            for (int j = 0; j < matrix.GetLength(1); j++)
             {
-                for(int k = 0; k < matrix.GetLength(2); k++)
+                for (int k = 0; k < matrix.GetLength(2); k++)
                 {
                     GameObject cube = Instantiate(cubePrefab, new Vector3(i - offsetX, j - offsetY, k - offsetZ), Quaternion.identity);
                     cube.transform.localScale = new Vector3(cubeScale, cubeScale, cubeScale);
@@ -122,6 +122,17 @@ public class GameManager : MonoBehaviour
             }
         }
 
+        for (int i = 0; i < alives.GetLength(0); i++)
+        {
+            for (int j = 0; j < alives.GetLength(1); j++)
+            {
+                for (int k = 0; k < alives.GetLength(2); k++)
+                {
+                    Debug.Log(alives[i, j, k]);
+                }
+            }
+        }
+
     }
 
 
@@ -136,11 +147,11 @@ public class GameManager : MonoBehaviour
 
         // Firstly calculate all states of cubes in the next generation, records the result in a new array alives.
         // Iterate every cube in the grid.
-        for(int i = 0; i < matrix.GetLength(0); i++)
+        for (int i = 0; i < matrix.GetLength(0); i++)
         {
-            for(int j = 0; j < matrix.GetLength(1); j++)
+            for (int j = 0; j < matrix.GetLength(1); j++)
             {
-                for(int k = 0; k < matrix.GetLength(2); k++)
+                for (int k = 0; k < matrix.GetLength(2); k++)
                 {
                     // Calculate the neighbors of the cube.
                     int neighbors = CurrentNeighbors(i, j, k);
@@ -149,7 +160,7 @@ public class GameManager : MonoBehaviour
                     Renderer renderer = matrix[i, j, k].GetComponent<Renderer>();
 
                     // If the current cube is alive.
-                    if(renderer.enabled)
+                    if (renderer.enabled)
                     {
 
                         // Under population.
@@ -187,11 +198,11 @@ public class GameManager : MonoBehaviour
 
 
         // Update the cube's states according to the alives array.
-        for(int i = 0; i < alives.GetLength(0); i++)
+        for (int i = 0; i < alives.GetLength(0); i++)
         {
-            for(int j = 0; j < alives.GetLength(1); j++)
+            for (int j = 0; j < alives.GetLength(1); j++)
             {
-                for(int k = 0; k < alives.GetLength(2); k++)
+                for (int k = 0; k < alives.GetLength(2); k++)
                 {
                     Renderer renderer = matrix[i, j, k].GetComponent<Renderer>();
                     Collider collider = matrix[i, j, k].GetComponent<Collider>();
@@ -373,7 +384,7 @@ public class GameManager : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.I) && !selecterActive)
         {
             tempCamPos = mainCamera.transform.position;
-            tempCamDir= mainCamera.transform.forward;
+            tempCamDir = mainCamera.transform.forward;
 
             selecterActive = true;
             selecter.SetActive(true);
@@ -459,7 +470,7 @@ public class GameManager : MonoBehaviour
             selecter.transform.position = previousLocation;
         }
 
-        if (selecter.transform.position.z > offsetZ|| selecter.transform.position.z < -offsetZ)
+        if (selecter.transform.position.z > offsetZ || selecter.transform.position.z < -offsetZ)
         {
             selecter.transform.position = previousLocation;
         }
@@ -480,8 +491,26 @@ public class GameManager : MonoBehaviour
     }
 
 
-    void LoadPattern()
+
+    public void LoadPattern()
     {
+        // Two ways to load existed save files.
+
+        // 1
+        // Find all .json files from the persistent data path location.
+        string[] fileNames = Directory.GetFiles(Application.persistentDataPath, "*.json");
+        Debug.Log(fileNames.Length);
+
+        // Iterate all files.
+        for(int i = 0; i < fileNames.Length; i++)
+        {
+            Debug.Log("Load " + i);
+            Debug.Log(fileNames[i]);
+        }
+
+
+        // 2
+        // Use aother file to records all datapath and file name of the save files.
 
     }
 
@@ -489,44 +518,80 @@ public class GameManager : MonoBehaviour
     public void SavePattern()
     {
         storedPatterns += 1;
-
         SaveData data = new SaveData(sizeOfGrid);
-        data.SetCubes(alives);
-
-        /*        SaveData data = new SaveData();
-                data.sizeOfGrid = 19;*/
-        Debug.Log(data.sizeOfGrid);
-        for(int i = 0; i < data.alives.Length; i++)
-        {
-            Debug.Log("[" + data.alives[i].x + " " + data.alives[i].y + " " + data.alives[i].z + "] : " + data.alives[i].value);
-        }
+        data.SetAlives(alives);
 
         string json = JsonUtility.ToJson(data);
-        File.WriteAllText(Application.persistentDataPath + "pattern(" + storedPatterns + ").json", json);
+        File.WriteAllText(Application.persistentDataPath + "/pattern(" + storedPatterns + ").json", json);
         Debug.Log(Application.persistentDataPath);
+
     }
 
 }
 
-class Alive
-{
-    public int x;
-    public int y;
-    public int z;
-    public bool value;
-}
- 
-class SaveData
+
+[Serializable]
+public class SaveData
 {
     public int sizeOfGrid;
-
-    public Alive[] alives;
-    
+    public Vector4[] alives;
 
     public SaveData(int sizeOfGrid)
     {
         this.sizeOfGrid = sizeOfGrid;
-        this.alives = new Alive[(int)Math.Pow(sizeOfGrid, 3)];
+        int amountOfCubes = (int)Math.Pow(sizeOfGrid, 3);
+        alives = new Vector4[amountOfCubes];
+
+        for (int i = 0; i < amountOfCubes; i++)
+        {
+            // W in the Vector4 represents the alive states of the cell.
+            // Four parameters of the constructor: x, y, z, w.
+            this.alives[i] = new Vector4(i % 5, i % 25 / 5, i / 25, 0);
+        }
+
+    }
+
+    public void SetAlives(bool[,,] alives)
+    {
+        for (int z = 0; z < sizeOfGrid; z++)
+        {
+            for (int y = 0; y < sizeOfGrid; y++)
+            {
+                for (int x = 0; x < sizeOfGrid; x++)
+                {
+                    if (alives[x, y, z])
+                    {
+                        this.alives[x + y * sizeOfGrid + z * (int)Math.Pow(sizeOfGrid, 2)].w = 1;
+                    }
+                    else
+                    {
+                        this.alives[x + y * sizeOfGrid + z * (int)Math.Pow(sizeOfGrid, 2)].w = 0;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+
+
+
+    // Failed version. The JsonUtility.ToJson() can not convert customerized class [Alive here] as a
+    // member of serilized object to Json format.
+
+    /*public int sizeOfGrid;
+    public Alive[] alives;
+
+    public SaveData(int sizeOfGrid)
+    {
+        this.sizeOfGrid = sizeOfGrid;
+        int amountOfCubes = (int)Math.Pow(sizeOfGrid, 3);
+        this.alives = new Alive[amountOfCubes];
+        for(int i = 0; i < amountOfCubes; i++)
+        {
+            alives[i] = new Alive();
+        }
     }
 
     public void SetCubes(bool[,,] alives)
@@ -537,6 +602,8 @@ class SaveData
             {
                 for (int k = 0; k < alives.GetLength(2); k++)
                 {
+                    Debug.Log(i + "," + j + "," + k);
+                    Debug.Log((int)Math.Pow(sizeOfGrid, 2) * k + sizeOfGrid * j + i);
                     this.alives[(int)Math.Pow(sizeOfGrid, 2) * k + sizeOfGrid * j + i].x = i;
                     this.alives[(int)Math.Pow(sizeOfGrid, 2) * k + sizeOfGrid * j + i].y = j;
                     this.alives[(int)Math.Pow(sizeOfGrid, 2) * k + sizeOfGrid * j + i].z = k;
@@ -544,34 +611,58 @@ class SaveData
                 }
             }
         }
-    }
-
+    }*/
 
 }
+
+
+/*
+// Useless class.
+public class Alive
+{
+    public int x;
+    public int y;
+    public int z;
+    public bool value;
+}
+
+*/
+
 
 
 /* 
+
+
 //Json Example
 {
     "sizeOfGrid" : 5,
-    "Alives": [{
-        "x": 0,
-		"y": 0,
-		"z": 0,
-		"value": false
+    "Alives": [
+        {
+            "x": 0,
+		    "y": 0,
+		    "z": 0,
+		    "w": 0
 
-    }, {
-        "x": 0,
-		"y": 0,
-		"z": 1,
-		"value": false
-
-    }, {
-        "x": 0,
-		"y": 0,
-		"z": 2,
-		"value": false
-
-    }]
+        }, 
+        {
+            "x": 0,
+		    "y": 0,
+		    "z": 1,
+		    "w": 0
+    
+        }, 
+        {
+            "x": 0,
+		    "y": 0,
+		    "z": 2,
+		    "w": 0
+    
+        }
+        .
+        .
+        .
+    ]
 }
+
+
 */
